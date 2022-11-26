@@ -1,55 +1,146 @@
-# IptiFayob-Space-Travelers-Hub
+<a name="readme-top"></a>
 
-## Description
+<div align="center">
 
-You will be building a mobile web application to check a list of metrics (numeric values) that you will create making use of React and Redux.
-I selected a Countries API that provides numeric data about a topic that you like and then build the webapp around it. The webapp will have several pages:
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
 
-one page with a list of items that could be filtered by some parameters; in the example below, it's a list of metrics that can be filtered by the country (imagine a search field to introduce the country name like Italy, Croatia, etc.). This page should be your homepage.
-one page for the item details; in the example, the detail page for Czech Republic cities with number of views
+  <h3><b> Metrics Webapp</b></h3>
 
-## [LIVE DEMO]()
+</div>
 
-# Getting Started with Create React App
+# 📗 Table of Contents
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-### Directory
+# 📖 Webapp Metrics Countries <a name="about-project"></a>
 
-- This directory can be clone using `git clone git@github.com:Iptysam/IptiFayob-Space-Travelers-Hub.git`
+**Countries** is a project which lets you select any country from one continent and check the details of it like capital name, official language, latitude and longitude
 
-## Available Scripts
+## 🛠 Built With <a name="built-with"></a>
 
-In the project directory, you can run:
+### Tech Stack <a name="tech-stack"></a>
 
--  `npm install` to install all dependencies
+> Describe the tech stack and include only the relevant sections that apply to your project.
 
--  `npm start` to spin up the app in your web browser.
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://reactjs.org/">Redux</a></li>
+    <li><a href="https://reactjs.org/">JSX</a></li>
+  </ul>
+</details>
 
-## Learn More
+### Key Features <a name="key-features"></a>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Fetch data from RestCountries API**
+- **Select continent**
+- **Select country**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Author 1
+## 🚀 Live Demo <a name="live-demo"></a>
 
-👨 Iptisam Mukadam
+- [Live Demo Link]()
 
-GitHub: [@iptisam](https://github.com/Iptysam)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Twitter: [@twitter](https://twitter.com/IptisamMukadam)
+## 💻 Getting Started <a name="getting-started"></a>
 
-LinkedIn: [@linkedin](https://www.linkedin.com/in/iptisam-mukadam-4b2b39239)
+To get a local copy up and running, follow these steps.
 
-## Contributing
+### Prerequisites
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](#).
+In order to run this project you need:
 
-## Show your support
+VS Code, GIT and NPM installed
 
-Give a ⭐️ if you like this project!
+### Setup
 
-## License
+Clone this repository to your desired folder:
+
+git clone git@github.com:Iptysam/React-Capstone.git
+
+### Install
+
+Install this project with:
+
+NPM install 
+
+### Usage
+
+To run the project, execute the following command:
+
+NPM Start
+
+### Run tests
+
+To run tests, run the following command:
+
+NPM Run test
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 👥 Authors <a name="authors"></a>
+
+👤 **Iptisam Mukadam**
+
+- GitHub: [@iptisam](https://github.com/Iptysam)
+
+- Twitter: [@twitter](https://twitter.com/IptisamMukadam)
+
+- LinkedIn: [@linkedin](https://www.linkedin.com/in/iptisam-mukadam)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **Include animations**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/Iptysam/React-Capstone/issues)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project give a star
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank Emilia for creating this awesome Capstone task
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
