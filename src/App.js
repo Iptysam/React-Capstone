@@ -3,8 +3,8 @@ import { useEffect } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Nav from './components/Navbar';
 import { fetchData } from './redux/home/home';
-import CountriesContainer from './components/countryContainer';
-import EachCountry from './components/onecountry';
+import CountriesContainer from './components/mainContainer';
+import EachCountry from './components/Eachcountry';
 
 function App() {
   const dispatch = useDispatch();
